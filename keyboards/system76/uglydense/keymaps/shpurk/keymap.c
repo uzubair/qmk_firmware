@@ -42,10 +42,10 @@ ________________________________________________________________________________
 |        |        |        |        |        |        |        |        |        |        |        |        |        |            |
 |________|________|________|________|________|________|________|________|________|________|________|________|________|____________|
 |            |        |        |        |        |        |        |        |        |        |        |        |        |        |
-|            |        |        |        |        |        |        |        |        |        |        |        |        |        |
+|            |        |        |        |        |        |  PgUp  |  PgDn  |  Home  |  End   |  PSCR  |        |        |        |
 |____________|________|________|________|________|________|________|________|________|________|________|________|________|________|
   |            |        |        |        |        |        |        |        |        |        |        |        |            |
-  |    CAPS    |  PgUp  | PgDn   |        |        |        |  LEFT  |  DOWN  |  UP    |  RIGHT |        |        |            |
+  |    CAPS    |        |        |        |        |        |  LEFT  |  DOWN  |  UP    |  RIGHT |        |        |            |
   |____________|________|________|________|________|________|________|________|________|________|________|________|____________|
       |            |        |        |        |        |        |        |        |        |        |        |        |        |
       |            |        |        |        |        |        |        |        |        |        |        |        |  PgUp  |
@@ -59,11 +59,11 @@ ________________________________________________________________________________
 
   [1] = LAYOUT(
       RESET, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS,   TO(0),   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_TRNS, KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-          KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_TRNS, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS, KC_TRNS,
-              KC_TRNS, KC_MPLY, KC_MPRV, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_PGUP,
-          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_BSPC,          KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS,     KC_HOME,  KC_PGDN, KC_END
+    KC_TRNS,   KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS,   KC_TRNS,  KC_TRNS, KC_TRNS, KC_PGUP, KC_PGDN, KC_HOME, KC_END,  KC_PSCREEN, KC_TRNS, KC_TRNS, KC_TRNS,
+          KC_CAPS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_TRNS, KC_TRNS, KC_TRNS,
+              KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,    KC_PGUP,
+          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_TRNS,          KC_DEL,      KC_TRNS, KC_TRNS, KC_TRNS,          KC_HOME,  KC_PGDN, KC_END
   )
 };
 
