@@ -378,6 +378,13 @@ int ptn5110_source_update(struct PTN5110 * self) {
 }
 
 void usb_mux_event(void) {
+    // Attempt to fix sink orientation
+    static int sink_workaround = 1000;
+    if (sink_workaround > 0) {
+        ptn5110_sink_set_orientation(&usb_sink);
+        sink_workaround -= 1;
+    }
+
     // Run this on every 1000th matrix scan
     static int cycle = 0;
     if (cycle >= 1000) {
