@@ -381,7 +381,7 @@ void usb_mux_event(void) {
     // Run this on every 1000th matrix scan
     static int cycle = 0;
     // Attempt to fix sink orientation
-    static int sink_workaround = 10;
+    static int sink_workaround = 100;
     if (cycle >= 1000) {
         cycle = 0;
         if (sink_workaround > 0) {
