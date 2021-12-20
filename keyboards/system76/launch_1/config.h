@@ -26,6 +26,10 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
+// Tap-Hold configuration option
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+
 // NKRO must be used
 #define FORCE_NKRO
 
