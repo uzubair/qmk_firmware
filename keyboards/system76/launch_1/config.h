@@ -31,6 +31,9 @@
 #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_TOGGLE 2
 
+// Auto Shift configuration
+#define AUTO_SHIFT_TIMEOUT 125
+
 // NKRO must be used
 #define FORCE_NKRO
 

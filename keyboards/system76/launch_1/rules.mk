@@ -36,6 +36,7 @@ RGB_MATRIX_DRIVER = WS2812
 RGB_MATRIX_CUSTOM_KB = yes  # Allow custom keyboard effect
 USB_6KRO_ENABLE = no        # 6key Rollover
 LTO_ENABLE = yes            # Link-time optimization for smaller binary
+AUTO_SHIFT_ENABLE = yes
 
 # Add System76 EC command interface
 SRC+=../system76_ec.c
