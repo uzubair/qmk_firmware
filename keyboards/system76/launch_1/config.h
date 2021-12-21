@@ -29,6 +29,7 @@
 // Tap-Hold configuration option
 #define TAPPING_TERM 200
 #define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TOGGLE 2
 
 // NKRO must be used
 #define FORCE_NKRO
