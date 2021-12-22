@@ -55,13 +55,13 @@ ________________________________________________________________________________
 |        |   !    |   @    |   #    |   $    |   %    |        |        |        |        |        |        |        |            ||        |
 |________|________|________|________|________|________|________|________|________|________|________|________|________|____________||________|
 |            |        |        |        |        |        |        |        |        |        |        |        |        |        ||        |
-|            |   ~    |    {   |    }   |   ^    |   _    |        |        |        |        |        |        |        |        ||        |
+|            |   ~    |    {   |    }   |   ^    |   &    |        |        |        |        |        |        |        |        ||        |
 |____________|________|________|________|________|________|________|________|________|________|________|________|________|________||________|
   |            |        |        |        |        |        |        |        |        |        |        |        |            |   |        |
-  |            |   `    |   (    |   )    |    &   |   +    |        |        |        |        |        |        |            |   |        |
+  |            |   '    |   (    |   )    |    *   |   +    |        |        |        |        |        |        |            |   |        |
   |____________|________|________|________|________|________|________|________|________|________|________|________|____________|___|________|
   |                |        |        |        |        |        |        |        |        |        |        |            |        |
-  |                |    "   |   [    |   ]    |   *    |   |    |        |        |        |        |        |            |        |
+  |                |    "   |   [    |   ]    |   _    |   |    |        |        |        |        |        |            |        |
   |________________|________|________|________|________|________|________|________|________|________|________|____________|________|_________
   |            |        |       |        |                 |                 |        |        |             |   |        |        |        |
   |            |        |       |        |                 |                 |        |        |             |   |        |        |        |
@@ -71,9 +71,9 @@ ________________________________________________________________________________
    [SYMBOLS] = LAYOUT(
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
     KC_TRNS, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TILD, KC_LCBR, KC_RCBR, KC_CIRC, KC_UNDS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_GRV, KC_LPRN, KC_RPRN, KC_AMPR, KC_PLUS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_DQUO, KC_LBRC, KC_RBRC, KC_ASTR, KC_PIPE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TILD, KC_LCBR, KC_RCBR, KC_CIRC, KC_AMPR, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_QUOT, KC_LPRN, KC_RPRN, KC_ASTR, KC_PLUS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_DQUO, KC_LBRC, KC_RBRC, KC_UNDS, KC_PIPE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
   ),
 
