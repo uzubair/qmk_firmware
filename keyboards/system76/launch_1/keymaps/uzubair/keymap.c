@@ -28,10 +28,10 @@ ________________________________________________________________________________
 |     TAB    |   Q    |   W    |   E    |   R    |   T    |   Y    |   U    |   I    |   O    |   P    |  {     |   }    |  |   \ ||  PGDN  |
 |____________|________|________|________|________|________|________|________|________|________|________|________|________|________||________|
   |            |        |        |        |        |        |        |        |        |        |   ;    |   '    |            |   |        |
-  |    CAPS    |  A/alt | S/lsft | D/ctrl |  F/L2  |    G   |   H    |     J  |     K  |     L  |   :    |   "    |   ENTER    |   |  END   |
+  |    CAPS    |    A   |    S   |   D/L2 |  F/L1  |    G   |   H    |     J  |     K  |     L  |   :    |   "    |   ENTER    |   |  END   |
   |____________|________|________|________|________|________|________|________|________|________|________|________|____________|___|________|
   |                |        |        |        |        |        |        |        |   ,    |    .   |   /    |            |        |
-  |     SHIFT      |   Z    |    X   |    c   |    V   |   B    |   N/L1 |  Mctrl | </rsft | >/alt  |   ?    |   SHIFT    |   UP   |
+  |     SHIFT      |   Z    | X/alt  | c/ctrl | V/lsht |   B    | N/rsht | M/rctrl| </ralt |    >   |   ?    |   SHIFT    |   UP   |
   |________________|________|________|________|________|________|________|________|________|________|________|____________|________|_________
   |            |        |       |        |                 |                 |        |        |             |   |        |        |        |
   |    CTRL    | SYSTEM | LALT  | LGUI   |    SPACE        |       TMUX      | RCTRL  |  RALT  |    ALFRED   |   |  LEFT  |  DOWN  | RIGHT  |
@@ -41,8 +41,8 @@ ________________________________________________________________________________
     KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL, KC_HOME,
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC,KC_PGUP,
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,KC_PGDN,
-    KC_CAPS, MT(MOD_LALT,KC_A), MT(MOD_LSFT,KC_S),  MT(MOD_LCTL,KC_D),    LT(NAVIGATION,KC_F),    KC_G,    KC_H,   KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,  KC_END,
-    KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,   LT(SYMBOLS,KC_N), MT(MOD_RCTL,KC_M), MT(MOD_RSFT,KC_COMM), MT(MOD_RALT,KC_DOT),  KC_SLSH, KC_RSFT, KC_UP,
+    KC_CAPS, KC_A,    KC_S,    LT(NAVIGATION,KC_D),    LT(SYMBOLS,KC_F),    KC_G,    KC_H,   KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,  KC_END,
+    KC_LSFT, KC_Z,    MT(MOD_LALT,KC_X), MT(MOD_LCTL,KC_C),  MT(MOD_LSFT,KC_V),    KC_B,   LT(MOD_RSFT,KC_N), MT(MOD_RCTL,KC_M), MT(MOD_RALT,KC_COMM), KC_DOT,  KC_SLSH, KC_RSFT, KC_UP,
     KC_LCTL, TT(SYSTEM),   KC_LALT, KC_LGUI, KC_SPC,  KC_GRV,  KC_RCTL, KC_RALT, ALFRED,   KC_LEFT, KC_DOWN, KC_RGHT
   ),
 
@@ -52,16 +52,16 @@ ________________________________________________________________________________
 |        |        |        |        |        |        |        |        |        |        |        |        |        |            ||        |
 |________|________|________|________|________|________|________|________|________|________|________|________|________|____________||________|
 |        |        |        |        |        |        |        |        |        |        |        |        |        |            ||        |
-|        |   !    |   @    |   #    |   $    |   %    |        |        |        |        |        |        |        |            ||        |
+|        |        |        |        |        |        |        |        |   !    |   @    |   #    |   $    |   %    |            ||        |
 |________|________|________|________|________|________|________|________|________|________|________|________|________|____________||________|
 |            |        |        |        |        |        |        |        |        |        |        |        |        |        ||        |
-|            |   ~    |    {   |    }   |   ^    |   &    |        |        |        |        |        |        |        |        ||        |
+|            |        |        |        |        |        |    `   |    {   |   }    |    ^   |   &    |        |        |        ||        |
 |____________|________|________|________|________|________|________|________|________|________|________|________|________|________||________|
   |            |        |        |        |        |        |        |        |        |        |        |        |            |   |        |
-  |            |   '    |   (    |   )    |    *   |   +    |        |        |        |        |        |        |            |   |        |
+  |            |        |        |        |        |        |    '   |   (    |   )    |   _    |    ~   |        |            |   |        |
   |____________|________|________|________|________|________|________|________|________|________|________|________|____________|___|________|
   |                |        |        |        |        |        |        |        |        |        |        |            |        |
-  |                |    "   |   [    |   ]    |   _    |   |    |        |        |        |        |        |            |        |
+  |                |        |        |        |        |        |    "   |    [   |   ]    |   *    |   |    |            |        |
   |________________|________|________|________|________|________|________|________|________|________|________|____________|________|_________
   |            |        |       |        |                 |                 |        |        |             |   |        |        |        |
   |            |        |       |        |                 |                 |        |        |             |   |        |        |        |
@@ -70,10 +70,10 @@ ________________________________________________________________________________
 */
    [SYMBOLS] = LAYOUT(
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TILD, KC_LCBR, KC_RCBR, KC_CIRC, KC_AMPR, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_QUOT, KC_LPRN, KC_RPRN, KC_ASTR, KC_PLUS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_DQUO, KC_LBRC, KC_RBRC, KC_UNDS, KC_PIPE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_GRV, KC_LCBR, KC_RCBR, KC_CIRC, KC_AMPR, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_QUOT, KC_LPRN, KC_RPRN, KC_ASTR, KC_TILD, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_DQUO, KC_LBRC, KC_RBRC, KC_UNDS, KC_PIPE, KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
   ),
 
